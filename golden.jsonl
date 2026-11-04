@@ -1,0 +1,50 @@
+{"q": "API 문서 자동으로 보는 페이지", "path": "notes/backend/01_fastapi_intro.md", "heading": "FastAPI 자동 문서화: Swagger UI와 ReDoc"}
+{"q": "레이어드 아키텍처에서 비즈니스 로직은 어디에 두나", "path": "notes/backend/06_layered_architecture.md", "heading": "레이어드 아키텍처에서 Service가 담당하는 비즈니스 로직"}
+{"q": "커넥션 풀", "path": "notes/backend/08_board_with_db.md", "heading": "SQLAlchemy Engine과 연결 풀"}
+{"q": "객체 값만 바꿨는데 update 쿼리가 나가는 이유", "path": "notes/backend/09_sqlalchemy.md", "heading": "SQLAlchemy 데이터 수정과 더티 체킹"}
+{"q": "게시글 지우면 댓글도 같이 삭제되게", "path": "notes/backend/10_one_to_many.md", "heading": "SQLAlchemy cascade 옵션과 게시글 삭제"}
+{"q": "association_proxy", "path": "notes/backend/12_many_to_many.md", "heading": "SQLAlchemy association_proxy 인자와 동작"}
+{"q": "인증이랑 인가 차이", "path": "notes/backend/15_cookie_session_token.md", "heading": "인증(Authentication)과 인가(Authorization)의 차이"}
+{"q": "access token 발급 코드", "path": "notes/backend/16_signup_login.md", "heading": "로그인 실습 3단계: PyJWT로 access token 발급"}
+{"q": "ORM 객체 상태 transient persistent detached", "path": "notes/backend/19_session_orm_object_state.md", "heading": "SQLAlchemy ORM 객체의 다섯 가지 상태"}
+{"q": "비동기에서 lazy loading 막기", "path": "notes/backend/21_async_crud.md", "heading": "비동기 ORM 관계 로딩: lazy=\"raise\" 설정"}
+{"q": "모든 API 응답 형식을 통일하는 모델", "path": "notes/backend/22_common_response_exception.md", "heading": "FastAPI 공통 성공 모델 SuccessResponse[T]"}
+{"q": "SSE랑 JSON 응답 차이", "path": "notes/backend/24_rag_agent_streaming.md", "heading": "SSE 스트리밍 응답과 일반 JSON 응답 비교"}
+{"q": "채팅 메시지 무한 스크롤 페이지네이션", "path": "notes/backend/25_multiturn_chatbot_checkpoint.md", "heading": "채팅 메시지 커서 페이지네이션 예시와 화면 이어 붙이기"}
+{"q": "도커 컨테이너랑 가상환경 차이", "path": "notes/docker/01_docker_basics.md", "heading": "Docker 컨테이너와 Python 가상환경(.venv)의 차이"}
+{"q": "DB가 준비된 다음에 서버 띄우기", "path": "notes/docker/06_fastapi_in_docker.md", "heading": "Compose depends_on: DB가 healthy가 된 뒤 FastAPI 시작"}
+{"q": "EC2 보안 그룹 포트 열기", "path": "notes/docker/07_deployment.md", "heading": "AWS 리전, VPC, 보안 그룹, 포트"}
+{"q": "Playwright로 요소 찾기", "path": "notes/html/02_playwright_crawling.md", "heading": "Playwright Locator로 요소 지정하기"}
+{"q": "LCEL 파이프 연산자", "path": "notes/langchain/01_langchain_basic.md", "heading": "LCEL 파이프라인이란 (LangChain Expression Language)"}
+{"q": "대화가 길어지면 오래된 메시지 잘라내기", "path": "notes/langchain/03_memory.md", "heading": "trim_messages 실습: 긴 히스토리 트리밍"}
+{"q": "structured output이 실패할 때 원인 확인", "path": "notes/langchain/04_structured_output.md", "heading": "Structured Output 실패 원인 3가지와 include_raw 진단"}
+{"q": "LLM에 도구 연결하기", "path": "notes/langchain/05_tool_agent.md", "heading": "LangChain bind_tools로 Tool 바인딩"}
+{"q": "청크를 왜 나눠야 하나", "path": "notes/langchain/06_rag_basic.md", "heading": "Text Splitter(텍스트 분할)가 필요한 이유"}
+{"q": "Chroma 메타데이터 필터 검색", "path": "notes/langchain/07_vector_db.md", "heading": "Chroma 실습 4단계: filter로 메타데이터 필터링 검색"}
+{"q": "답변에 출처 번호 달기", "path": "notes/langchain/08_rag_pipeline.md", "heading": "RAG 파이프라인 실습 7단계: 출처 번호를 붙이는 Citation RAG"}
+{"q": "BM25", "path": "notes/langchain/09_rag_search_advanced.md", "heading": "BM25 키워드 검색이란"}
+{"q": "Hit@k MRR 지표", "path": "notes/langchain/10_rag_evaluation_practice.md", "heading": "RAG 평가 지표: File Hit@k, Page Hit@k, MRR"}
+{"q": "조건에 따라 다음 노드로 분기", "path": "notes/langchain/11_langgraph_basic.md", "heading": "LangGraph add_conditional_edges로 분기 연결"}
+{"q": "사용자별로 장기 기억 저장 분리", "path": "notes/langchain/13_memory_state.md", "heading": "LangGraph Store namespace로 사용자 데이터 분리"}
+{"q": "질문 의도별로 경로 나누는 라우터를 임베딩으로", "path": "notes/langchain/15_router.md", "heading": "Semantic Routing 1단계: 대표 문장을 Chroma에 저장"}
+{"q": "LLM 답변에서 개인정보 걸러내기", "path": "notes/langchain/16_guardrails.md", "heading": "Output Guardrail 1단계: 민감정보 정규식 패턴"}
+{"q": "Send API로 작업 나눠서 병렬 실행", "path": "notes/langchain/19_orchestrator_worker.md", "heading": "Orchestrator-worker와 Send API란"}
+{"q": "도구 실행 전에 사람 승인 받기", "path": "notes/langchain/21_human_in_the_loop.md", "heading": "Human-in-the-Loop(HITL)란"}
+{"q": "과거 체크포인트로 돌아가서 다시 실행", "path": "notes/langchain/22_time_travel.md", "heading": "Time Travel Replay: 과거 checkpoint에서 그대로 재실행"}
+{"q": "검색된 문서가 질문과 관련 있는지 평가", "path": "notes/langchain/23_agentic_rag.md", "heading": "Agentic RAG 실습 5단계: grade_documents로 검색 결과 평가"}
+{"q": "노드 실패하면 재시도", "path": "notes/langchain/27_fault_tolerance.md", "heading": "RetryPolicy 실습 2단계: 노드에 재시도 정책 연결"}
+{"q": "로그 레벨 DEBUG INFO WARNING", "path": "notes/langchain/29_langgraph_logging.md", "heading": "Python logging 로그 레벨로 중요도 나누기"}
+{"q": "PostgresSaver", "path": "notes/langchain/31_postgres_checkpointer.md", "heading": "LangGraph PostgresSaver Checkpointer 준비"}
+{"q": "작은 청크로 검색하고 큰 청크를 LLM에 넘기기", "path": "notes/langchain/33_crawling_parent_child_rag.md", "heading": "Parent-Child Chunking이란"}
+{"q": "MCP 서버가 제공하는 기능 종류", "path": "notes/langchain/36_mcp.md", "heading": "MCP 서버 기능: Tool, Resource, Prompt"}
+{"q": "SPA랑 SSR 차이", "path": "notes/web/04_spa.md", "heading": "SPA(Single-Page Application)란"}
+{"q": "rag 청크방식에는 어떤 게 있어?", "paths": ["notes/langchain/06_rag_basic.md", "notes/langchain/33_crawling_parent_child_rag.md", "notes/langchain/34_pdf_table_image_extraction.md"]}
+{"q": "에이전트 워크플로 패턴 종류", "paths": ["notes/langchain/15_router.md", "notes/langchain/17_reflection.md", "notes/langchain/18_parallelization.md", "notes/langchain/19_orchestrator_worker.md", "notes/langchain/20_plan_and_execute.md"]}
+{"q": "멀티 에이전트 구성 방식", "paths": ["notes/langchain/24_subgraph.md", "notes/langchain/25_supervisor.md", "notes/langchain/26_handoff.md"]}
+{"q": "RAG 성능 평가하는 방법", "paths": ["notes/langchain/10_rag_evaluation.md", "notes/langchain/10_rag_evaluation_practice.md", "notes/langchain/35_rag_golden_set.md"]}
+{"q": "챗봇이 이전 대화를 기억하게 만드는 방법", "paths": ["notes/langchain/03_memory.md", "notes/langchain/13_memory_state.md", "notes/langchain/31_postgres_checkpointer.md", "notes/backend/25_multiturn_chatbot_checkpoint.md"]}
+{"q": "LangGraph 체크포인트로 할 수 있는 것들", "paths": ["notes/langchain/13_memory_state.md", "notes/langchain/21_human_in_the_loop.md", "notes/langchain/22_time_travel.md", "notes/langchain/27_fault_tolerance.md", "notes/langchain/31_postgres_checkpointer.md"]}
+{"q": "웹 크롤링 방법 정리", "paths": ["notes/html/01_beautifulsoup_crawling.md", "notes/html/02_playwright_crawling.md", "notes/web/05_crawling.md", "notes/langchain/33_crawling_parent_child_rag.md"]}
+{"q": "로그인 인증 구현 과정", "paths": ["notes/backend/15_cookie_session_token.md", "notes/backend/16_signup_login.md", "notes/backend/17_posts_with_author.md", "notes/backend/18_auth_practice.md"]}
+{"q": "RAG 검색 품질 높이는 기법", "paths": ["notes/langchain/09_rag_search_advanced.md", "notes/langchain/23_agentic_rag.md", "notes/langchain/33_crawling_parent_child_rag.md"]}
+{"q": "SQLAlchemy 테이블 관계 설정", "paths": ["notes/backend/10_one_to_many.md", "notes/backend/11_one_to_many_practice.md", "notes/backend/12_many_to_many.md", "notes/backend/13_many_to_many_practice.md"]}

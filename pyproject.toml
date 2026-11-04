@@ -1,0 +1,12 @@
+[project]
+name = "study-rag"
+version = "0.1.0"
+requires-python = ">=3.13"
+dependencies = [
+    "google-genai>=2.34.0",
+    "numpy>=2.5.4",
+    "pgvector>=0.5.1",
+    "psycopg[binary]>=3.3.7",
+    "python-dotenv>=1.2.4",
+    "streamlit>=1.66.1",
+]

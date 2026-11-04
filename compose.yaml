@@ -1,0 +1,16 @@
+name: study-rag
+
+services:
+  db:
+    image: pgvector/pgvector:pg17-trixie
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: "1234"
+      POSTGRES_DB: study_rag
+    ports:
+      - "127.0.0.1:5434:5432"
+    volumes:
+      - study_rag_data:/var/lib/postgresql/data
+
+volumes:
+  study_rag_data:
